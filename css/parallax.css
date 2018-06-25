@@ -1,0 +1,21 @@
+body, html {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: 'Lobster', cursive;
+}	
+
+.parallax-window {
+	height: 100%;
+	background: transparen;
+	padding: 50px;
+	min-height: 550px;
+}
+	
+.para{
+	z-index: 2;
+	position: relative;
+	text-align: center;
+	color:white;
+	padding:50px;
+}

@@ -1,0 +1,92 @@
+ol.carousel-indicators {
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  left: 0;
+  right: 0;
+  width: auto;
+}
+
+ol.carousel-indicators li, ol.carousel-indicators li {
+	text-indent: 0;
+	margin: 0 2px;
+	width: 30px;
+	height: 30px;
+	border: none;
+	border-radius: 100%;
+	line-height: 30px;
+	color: #fff;
+	background-color: #999;
+	transition: all 0.25s ease;    
+}
+
+ ol.carousel-indicators li, ol.carousel-indicators li.active {
+	margin: 0 2px;
+	width: 30px;
+	height: 30px;
+	background-color: darkgray;        
+}
+
+ol.carousel-indicators li.active {
+  background: #337ab7;
+}
+
+ol.carousel-indicators li:hover {
+  background: #337ab7;
+}
+
+p, h1, h2, h3, h4, li, figcaption, a {
+	font-family: 'Itim', cursive;
+}
+
+figcaption {
+	color: white;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+li, p, figcaption {
+	font-size:18px;
+	
+}
+
+a {
+	color: #bcbec0;
+}
+
+a:hover {
+	color: #c8543b;
+}
+
+.picBox {
+	height: 50px;
+	padding-top: 11px;
+	padding-bottom: 11px;
+	text-align: center;
+}
+
+.animate
+{
+	animation-name: moveText;
+	animation-duration: 3s;
+	animation-fill-mode:both;
+	position: relative;
+}
+
+@keyframes moveText 
+{
+    from {transform: translateX(-1000px);}
+    to {transform: translateX(0);}
+}
+
+.hide-me {
+  visibility: hidden;
+  opacity: 0;
+  transform: scale(.75);
+  display: none;
+}
